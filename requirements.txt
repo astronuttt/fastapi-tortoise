@@ -5,3 +5,6 @@ passlib==1.7.4
 tortoise-orm==0.21.6
 aerich==0.7.2
 asyncmy==0.2.9
+python-multipart==0.0.9
+pydantic-extra-types==2.9.0
+pydantic-settings==2.4.0
