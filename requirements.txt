@@ -1,0 +1,7 @@
+fastapi==0.115.0
+uvicorn==0.30.6
+python-jose==3.3.0
+passlib==1.7.4
+tortoise-orm==0.21.6
+aerich==0.7.2
+asyncmy==0.2.9
