@@ -1,10 +1,9 @@
 FROM python:3.12-alpine
 
-RUN apk --no-cache add bash gcc python3-dev libc-dev 
-
-ENV PYTHONUNBUFFERED=1
-
-COPY ./requirements.txt /
 WORKDIR /
+COPY ./requirements.txt /
 
-RUN pip install --no-cache-dir -r /requirements.txt
+RUN apk --no-cache add bash gcc python3-dev libc-dev \
+    && pip install --no-cache-dir -r /requirements.txt
+
+
